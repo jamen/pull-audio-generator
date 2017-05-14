@@ -1,0 +1,25 @@
+{
+  "name": "pull-audio-generator",
+  "description": "Generate audio as a pull-stream source",
+  "version": "0.0.0",
+  "author": "Jamen Marz (https://git.io/jamen)",
+  "main": "index.js",
+  "repository": "audiojs/pull-audio-generator",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "audiojs",
+    "audio",
+    "pull-stream",
+    "pull-audio",
+    "generate"
+  ],
+  "devDependencies": {
+    "pull-stream": "^3.6.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "audio-generator": "^2.1.2"
+  }
+}
