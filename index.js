@@ -14,7 +14,7 @@ function stream (fn, options) {
     if (ended) return
     if (end) {
       ended = true
-      return cb(end || true)
+      return cb(end)
     }
     
     var buf = generate()
